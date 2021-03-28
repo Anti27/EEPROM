@@ -1,6 +1,3 @@
-rm exp
-edit exp
-
 function redstoneloader()
 	redstone = component.proxy(component.list("redstone")())
 end
