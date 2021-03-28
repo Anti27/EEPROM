@@ -1,4 +1,4 @@
---This is code for a Robot for remote Control via chat, without the need for a Harddrive (without Openos)
+--This is code for a Robot for remote Control via chat, without the need for a Harddrive (without Openos).
 function redstoneloader()
 	redstone = component.proxy(component.list("redstone")())
 end
