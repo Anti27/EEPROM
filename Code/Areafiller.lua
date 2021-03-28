@@ -1,5 +1,4 @@
-rm Filler
-edit Filler
+-- Fills an Area (XZ) with Blocks. You build the outest Layer, the Robot fills it for you.
 local robot = require("robot")
 local term = require("term")
 local computer = require("computer")
