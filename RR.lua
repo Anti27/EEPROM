@@ -1,3 +1,4 @@
+--This is code for a Robot, without the need for a Harddrive (without openos)
 function redstoneloader()
 	redstone = component.proxy(component.list("redstone")())
 end
