@@ -1,4 +1,5 @@
 --This is code for a Robot for remote Control via chat, without the need for a Harddrive (without Openos).
+function allloader
 function redstoneloader()
 	redstone = component.proxy(component.list("redstone")())
 end
@@ -141,4 +142,5 @@ pcall(internetloader)
 while true do
 	pcall(loop())
 	chat.say("§2FATAL ERROR, RESET!")
+end
 end
